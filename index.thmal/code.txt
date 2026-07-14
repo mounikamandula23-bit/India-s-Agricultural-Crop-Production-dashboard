@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's Agricultural Crop Production Analysis</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4fff4;
+        }
+
+        header {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #1b5e20;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .tableauPlaceholder {
+            width: 100%;
+        }
+
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🌾 India's Agricultural Crop Production Analysis (1997–2021)</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#story">Story</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="card">
+            <h2>About the Project</h2>
+            <p>
+                This project analyzes India's Agricultural Crop Production data
+                using MySQL, Tableau and Flask. It provides interactive
+                dashboards to study crop production, cultivated area,
+                yield trends and state-wise agricultural performance.
+            </p>
+        </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboard">
+        <h2>Interactive Dashboard</h2>
+
+        <div class="tableauPlaceholder" id="vizDash">
+            <object class="tableauViz" style="display:none;">
+
+                <param name="host_url"
+                    value="https%3A%2F%2Fpublic.tableau.com%2F" />
+
+                <param name="embed_code_version" value="3" />
+
+                <param name="name"
+                    value="ResponsiveandDesignofDashboard/ResponsiveandDesignofDashboard" />
+
+                <param name="tabs" value="no" />
+
+                <param name="toolbar" value="yes" />
+
+            </object>
+        </div>
+
+        <script>
+            var divElement = document.getElementById("vizDash");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+
+            vizElement.style.width = "100%";
+            vizElement.style.height = "900px";
+
+            var scriptElement = document.createElement("script");
+            scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+    </section>
+
+    <!-- Story -->
+    <section id="story">
+        <h2>Interactive Story</h2>
+
+        <div class="tableauPlaceholder" id="vizStory">
+            <object class="tableauViz" style="display:none;">
+
+                <param name="host_url"
+                    value="https%3A%2F%2Fpublic.tableau.com%2F" />
+
+                <param name="embed_code_version" value="3" />
+
+                <param name="name"
+                    value="Year-WiseTotalAgriculturalProduction1997-2021/AgriculturalProductionOverview" />
+
+                <param name="tabs" value="no" />
+
+                <param name="toolbar" value="yes" />
+
+            </object>
+        </div>
+
+        <script>
+            var divElement2 = document.getElementById("vizStory");
+            var vizElement2 = divElement2.getElementsByTagName("object")[0];
+
+            vizElement2.style.width = "100%";
+            vizElement2.style.height = "850px";
+
+            var scriptElement2 = document.createElement("script");
+            scriptElement2.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement2.parentNode.insertBefore(scriptElement2, vizElement2);
+        </script>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 India's Agricultural Crop Production Analysis | Developed using MySQL, Tableau & Flask</p>
+    </footer>
+
+</body>
+
+</html>
+
+This version is properly formatted, easy to understand, and ready to save as index.html.
