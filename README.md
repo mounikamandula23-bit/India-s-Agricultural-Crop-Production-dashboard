@@ -185,6 +185,8 @@ https://public.tableau.com/app/profile/mounika.mandula/viz/ResponsiveandDesignof
 
 https://public.tableau.com/app/profile/mounika.mandula/viz/Year-WiseTotalAgriculturalProduction1997-2021/AgriculturalProductionOverview?publish=yes
 
+Demo link:
+https://drive.google.com/file/d/1rHB2zq_WL2cq1TjosEmkRfc6sCGa1EuW/view?usp=drivesdk
 ---
 
 # 📌 Results
@@ -213,7 +215,7 @@ https://public.tableau.com/app/profile/mounika.mandula/viz/Year-WiseTotalAgricul
 ## Team Members
 
 - **M.Mounika** – Team Lead
-- **p.Bhuvana Nagalakshmi** – Team Member
+- **P.Bhuvana Nagalakshmi** – Team Member
 - **K.Damayanthi** – Team Member
 - **P.Sathvika** – Team Member
 
